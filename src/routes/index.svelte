@@ -1,19 +1,13 @@
-<script>
-	// your script goes here
-</script>
-
-<svelte:head>
-	<title>Werux - Web developer</title>
-</svelte:head>
-<section class="flex flex-col justify-center">
-	<h1
-		class="w-full text-4xl md:text-9xl bg-purple-700 max-w-screen-sm p-5 rounded-lg shadow-lg font-light hover:text-red-500"
+<div class="flex flex-col justify-center items-center w-full h-full max-w-screen">
+	<div
+		class="bg-white p-4 md:p-7 m-auto rounded-tl-lg rounded-tr-none rounded-br-lg md:rounded-tl-3xl md:rounded-br-3xl text-lg md:text-xl md:bg-opacity-50 sm:ml-2 sm:mr-2 font-medium"
 	>
-		Werux
-	</h1>
-	<p class="text-purple-800 italic font-mono">Web development made convenient!</p>
-</section>
-
-<style>
-	/* your styles go here */
-</style>
+		<p class="font-bold text-center">We Moved!</p>
+		<p>
+			Most of this site is being migrated to a more cohesive repo. Even so, <a
+				href="/ticket"
+				class="text-pink-700 hover:bg-pink-500">ticketing</a
+			>(if you run into errors) still works
+		</p>
+	</div>
+</div>
