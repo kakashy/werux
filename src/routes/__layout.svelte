@@ -1,14 +1,21 @@
 <script>
-	// import Header from '$lib/Header/index.svelte';
-	import '../styles/tailwind-output.css';
+	import '../app.css';
 </script>
 
-<main
-	class="bg-red-900 h-screen w-screen flex flex-col items-center from-yellow-400 bg-gradient-to-br to-red-700"
->
+<main>
 	<slot />
-	<footer class="bottom-0 fixed m-2 opacity-70">&copy; 2021</footer>
+	<footer>&copy; 2021</footer>
 </main>
 
-<style windi:preflights:global windi:safelist:global>
+<style>
+main {
+	min-height: 100vh;
+}
+	footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px;
+	}
 </style>

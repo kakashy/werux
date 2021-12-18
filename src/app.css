@@ -1,0 +1,42 @@
+@font-face {
+	font-family: kung;
+	src: url('/fonts/kungfumaster.ttf');
+}
+@font-face {
+    font-family: lgc;
+    src: url('/fonts/Louis\ George\ Cafe\ Light.ttf');
+}
+:root {
+	font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
+
+body {
+	margin: 0;
+	color: white;
+	background-color: #111110;
+    min-height: 100vh;
+    font-family: lgc;
+}
+
+h1,
+h2 {
+	color: #13ff13;
+	font-size: 4rem;
+	font-family: kung;
+	font-weight: 200;
+    text-shadow: 1px 1px 5px #13ff1380;
+}
+
+blockquote {
+	border-left: 2px solid #13ff13;
+	border-radius: 2px;
+	padding: 18px;
+	background-color: #00000040;
+	box-shadow: 1px 1px 15px #00000040;
+}
